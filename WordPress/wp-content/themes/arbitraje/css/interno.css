@@ -1,0 +1,12 @@
+.wp-availability-month table {width: 280px;font: 12px "Roboto",sans-serif;}
+.container{ background-color:#FFF;}
+.search-header input[type="text"] {border: 1px solid #CCC;}
+@media (max-width: 768px){
+	.wp-availability-month table {
+		width: 100%;
+		font: 100% "Roboto",sans-serif;
+	}
+	.wp-availability-month table thead th{
+		font-size: 20px;
+	}
+}

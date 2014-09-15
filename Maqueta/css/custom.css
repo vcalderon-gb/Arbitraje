@@ -1,0 +1,77 @@
+/* THIS IS A CUSTOM CSS STYLESHEET */ 
+.navbar-inverse {
+height: 82px;
+}
+.navbar-nav>li {
+text-transform: uppercase;
+height: 82px;
+}
+.navbar-nav>li.active {
+background-color: #e24046;
+}
+.navbar-inverse .navbar-nav>li:hover {
+color: #ffffff;
+background-color: #e24046;
+
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #ffffff;
+	top: 15px;
+}
+.navbar-inverse {
+background-color: #3d4a53;
+border-color: #3d4a53;
+border-top: 1px solid #e24046;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+color: #fff;
+background-color: #e24046;
+}
+.navbar-collapse {
+border-color: #101010;
+background: #3d4a53;
+height: 82px;
+overflow-x:hidden
+}
+h4{margin-top: 0px;}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+color: #fff;
+background-color: #e24046;
+top: 0px;
+padding-top: 30px;
+height: 82px;
+}
+.dropdown-menu{
+	background-color: #3d4a53;
+}
+.dropdown-menu>li>a{
+	color:#e24046;
+}
+/*CSS FOR MOBILE*/
+@media (min-width: 768px){
+    .navbar-nav{
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+        float:none;
+    }
+}
+@media (min-width: 480px max-width: 480px;) {
+.news-home article{max-width: 301px;}
+
+}
+
+@media screen and (min-width: 479px) and (max-width: 480px){
+.sumario{display: none;}
+ }
+.breadcrumb {
+	padding: 8px 15px;
+	margin-bottom: 20px;
+	list-style: none;
+	border-top: solid 1px #ededed;
+	border-bottom: solid 1px #ededed;
+	background-color: #ffffff;
+	border-radius: 0px;
+}
+

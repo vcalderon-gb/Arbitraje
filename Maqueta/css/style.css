@@ -1,0 +1,32 @@
+.navbar-nav>li.current-menu-item{
+background-color: #e24046;
+height: 82px;
+}
+.event-act, .prox-event{cursor:pointer;}
+.prox_eventos_home{display:none;}
+.cont-slider { height:370px; margin-left:5px;}
+.wp-availability-month table {max-width: 320px;font: 12px "Roboto",sans-serif;}
+.month-1,.month-2,.month-3,.month-4,.month-5,.month-6,.month-7,.month-8,.month-9,.month-10,.month-11,.month-12{display:none;}
+.fl_left{cursor:pointer; width: 0;height: 0;border-style: solid;border-width: 9.5px 13px 9.5px 0;border-color: transparent #e24046 transparent transparent;display: inline-block;margin-top: 8px;}
+.fl_right{cursor:pointer; width: 0;height: 0;border-style: solid;border-width: 9.5px 0 9.5px 13px;border-color: transparent transparent transparent #e24046;display: inline-block; float:right;margin-top: 8px;}
+.wp-availability-booked{background-color:#e24046 !important;}
+.subs-boletin .wysija-submit{display: inline-block;margin-bottom: 0px;font-weight: 400;text-align: center;vertical-align: middle;cursor: pointer;border: 1px solid transparent;white-space: nowrap;padding: 6px 12px;font-size: 14px;line-height: 2.6;border-radius: 0px;-moz-user-select: none;float: left;background: none repeat scroll 0% 0% #CF242B; margin-top:0px;}
+.wysija-paragraph{padding:0; margin:0;}
+.tabla_calculadora{display:none; width:90%; margin-top:30px; text-align:center; line-height:50px;}
+.tabla_calculadora td strong{background-color:#CCC;display: block;}
+#tweets ul,#tweets ul li{padding:0; margin:0 !important;}
+.formErrorContent{ margin-top:50px;}
+/************************Calculadora****************/
+.txt_cal{margin-top:50px;}
+.txt_cal #monto{width:60%; border:none; background-color:#CCC; font-size:20px; height:40px;}
+.txt_cal #enviar{ padding:10px; width:80px; height:40px; background-color:#e24046; border:none; color:#FFF;line-height: 26px;margin-left: -3px;}
+.Footer1, .Footer3, .Footer4{margin-top:20px !important;}
+.Footer5{margin-top:10px !important;}
+.Footer2{margin-bottom:20px !important;}
+.wp-availability-month table tbody td.wp-availability-disabled {
+background-color: #ffffff;
+}
+.wp-availability-month table tbody td {
+border: 1px solid white;
+background: #ffffff;
+}
